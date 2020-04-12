@@ -1,7 +1,7 @@
 package main;
 
 import main.Observer;
-
+import java.lang.String;
 import java.util.ArrayList;
 
 public class Product implements Subject

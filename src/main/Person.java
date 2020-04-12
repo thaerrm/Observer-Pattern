@@ -1,5 +1,5 @@
 package main;
-
+import java.lang.String;
 import main.Observer;
 
 public class Person implements Observer

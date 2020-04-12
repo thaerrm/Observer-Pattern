@@ -8,5 +8,7 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="Maven: Arquillian JUnit:Release" level="project" />
+    <orderEntry type="library" name="Maven: org.thymeleaf:thymeleaf:Release" level="project" />
+    <orderEntry type="library" name="Maven: org.thymeleaf.extras:thymeleaf-extras-java8time:Release" level="project" />
   </component>
 </module>
