@@ -1,8 +1,8 @@
-package main;
+package Main;
 
 import Subject.Person;
 import Subject.Product;
-import interfaces.Observer;
+import Interfaces.Observer;
 
 import java.util.ArrayList;
 import java.util.Iterator;

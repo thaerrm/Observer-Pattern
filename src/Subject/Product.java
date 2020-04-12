@@ -1,7 +1,7 @@
 package Subject;
 
-import interfaces.Observer;
-import interfaces.Subject;
+import Interfaces.Observer;
+import Interfaces.Subject;
 
 import java.lang.String;
 import java.util.ArrayList;

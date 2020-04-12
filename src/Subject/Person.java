@@ -1,7 +1,6 @@
 package Subject;
-import java.lang.String;
-import interfaces.Observer;
-import interfaces.Subject;
+import Interfaces.Observer;
+import Interfaces.Subject;
 
 public class Person implements Observer
 {
@@ -18,13 +17,13 @@ public class Person implements Observer
 				return personName;
 		}
 
-		public void setPersonName( String personName )
-		{
-				this.personName = personName;
-		}
+	public void setPersonName( String personName )
+	{
+		this.personName = personName;
+	}
 
-		public void update( String availabiliy )
-		{
-				System.out.println("Hello " + personName + ", Subject.Product is now " + availabiliy + " on flipkart");
-		}
+	public void update( String availabiliy )
+	{
+		System.out.println("Hello " + personName + ", Subject.Product is now " + availabiliy + " on flipkart");
+	}
 }
