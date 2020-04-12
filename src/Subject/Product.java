@@ -1,4 +1,4 @@
-package main;
+package Subject;
 
 import main.Observer;
 import java.lang.String;
@@ -90,8 +90,8 @@ public class Product implements Subject
 		@Override
 		public void notifyObservers()
 		{
-				System.out.println("main.Product Name :"
-				                + this.getProductName() + ", main.Product Type : " + this.productType + ", product Price : "
+				System.out.println("Subject.Product Name :"
+				                + this.getProductName() + ", Subject.Product Type : " + this.productType + ", product Price : "
 				                + this.productPrice + " is available now.So notifying all the users ");
 				System.out.println();
 				for( Observer observer : observers )

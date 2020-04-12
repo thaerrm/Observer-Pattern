@@ -1,5 +1,8 @@
 package main;
 
+import Subject.Person;
+import Subject.Product;
+
 import java.util.ArrayList;
 import java.util.Iterator;
 
@@ -10,9 +13,9 @@ public class ObserverPatternMain
 		{
 				Product samsungLEDTV = new Product("Samsung LED TV", "LED TV","60000Rs", "Not available");
 				
-				//main.Person david object will be created and person david object will be registered to the subject
+				//Subject.Person david object will be created and person david object will be registered to the subject
 				Person david = new Person("David",samsungLEDTV);
-				//main.Person john object will be created and person john object will be registered to the subject
+				//Subject.Person john object will be created and person john object will be registered to the subject
 				Person john = new Person("John",samsungLEDTV);
 
 				ArrayList<Observer> subscribers= samsungLEDTV.getObservers();

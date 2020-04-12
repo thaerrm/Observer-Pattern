@@ -1,4 +1,4 @@
-package main;
+package Subject;
 import java.lang.String;
 import main.Observer;
 
@@ -24,6 +24,6 @@ public class Person implements Observer
 
 		public void update( String availabiliy )
 		{
-				System.out.println("Hello " + personName + ", main.Product is now " + availabiliy + " on flipkart");
+				System.out.println("Hello " + personName + ", Subject.Product is now " + availabiliy + " on flipkart");
 		}
 }
