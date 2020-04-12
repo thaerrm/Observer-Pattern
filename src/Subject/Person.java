@@ -1,6 +1,7 @@
 package Subject;
 import java.lang.String;
-import main.Observer;
+import interfaces.Observer;
+import interfaces.Subject;
 
 public class Person implements Observer
 {

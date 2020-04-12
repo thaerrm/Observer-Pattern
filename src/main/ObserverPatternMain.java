@@ -2,6 +2,7 @@ package main;
 
 import Subject.Person;
 import Subject.Product;
+import interfaces.Observer;
 
 import java.util.ArrayList;
 import java.util.Iterator;
