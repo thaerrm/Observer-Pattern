@@ -1,19 +1,18 @@
 package Tests;
 import Interfaces.Observer;
-import Interfaces.Subject;
 import org.junit.Assert;
 import org.junit.Test;
+import Subject.Person;
 
 
-
-public class personTest {
+public class PersonTest {
     @Test
     public void personTest()
 
     {
         Person person = new Person();
         person.setPersonName("Name");
-        String personName = person.getPersonName;
-        Assert.assertEquals(personName, person.getPersonName("Name"));
+        String personName = person.getPersonName();
+        Assert.assertEquals(personName,"Name");
     }
 }

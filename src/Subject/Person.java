@@ -12,7 +12,8 @@ public class Person implements Observer
 				subject.registerObserver(this);
 		}
 
-		public String getPersonName()
+
+	public String getPersonName()
 		{
 				return personName;
 		}
