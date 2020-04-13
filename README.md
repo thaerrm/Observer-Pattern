@@ -17,5 +17,6 @@ The observer patterns " publish and subscribe " method, allows the object that c
 TO RUN:
 Clone this repository to your local device.
 Open the project in your IDE of choice.
-Build the project.
+Run the project.
+Enter your name to see the availibility of the product. 
   

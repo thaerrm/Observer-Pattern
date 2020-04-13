@@ -23,8 +23,8 @@ public class Person implements Observer
 		this.personName = personName;
 	}
 
-	public void update( String availabiliy )
+	public void update( String availability )
 	{
-		System.out.println("Hello " + personName + ", Subject.Product is now " + availabiliy + " on flipkart");
+		System.out.println("Hello " + personName + ", Subject.Product is now " + availability + " on flipkart");
 	}
 }
